@@ -62,11 +62,11 @@
 		413CA70527B0DA1C00461FE3 /* Forecast_Codable */ = {
 			isa = PBXGroup;
 			children = (
-				413CA71E27B0DBDB00461FE3 /* View */,
 				413CA71A27B0DA5600461FE3 /* Supporting Files */,
 				A1A5410E28F4A9E100369AFD /* Storyboard */,
 				A1A5410F28F4A9F600369AFD /* Model */,
-				A1A5411028F4AA5400369AFD /* NetworkController.swift */,
+				413CA71E27B0DBDB00461FE3 /* View */,
+				A1A5411228F4C90C00369AFD /* Controllers */,
 			);
 			path = Forecast_Codable;
 			sourceTree = "<group>";
@@ -106,6 +106,14 @@
 				A1A5410C28F4A19300369AFD /* Day.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		A1A5411228F4C90C00369AFD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A1A5411028F4AA5400369AFD /* NetworkController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

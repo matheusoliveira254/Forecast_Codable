@@ -14,12 +14,12 @@ class NetworkController {
     static func fetchDays(completion: @escaping (TopLevelDictionary?) -> Void) {
         guard let baseURL = URL(string: baseURLString) else {completion(nil); return}
         var urlComponents = URLComponents(url: baseURL, resolvingAgainstBaseURL: true)
-        urlComponents?.path = "v2.0/forecast/daily"
-        var apiQuery = URLQueryItem(name: "key", value: "dd42671717fd414aa38bc749daace27b")
-        var cityQuery = URLQueryItem(name: "city", value: "Lehi")
-        var unitsQuery = URLQueryItem(name: "units", value: "I")
+        urlComponents?.path = "/v2.0/forecast/daily"
+        let apiQuery = URLQueryItem(name: "key", value: "dd42671717fd414aa38bc749daace27b")
+        let cityQuery = URLQueryItem(name: "city", value: "Lehi")
+        let unitsQuery = URLQueryItem(name: "units", value: "I")
         
-        urlComponents?.queryItems = [apiQuery, cityQuery, unitsQuery]
+        urlComponents?.queryItems = [apiQuery,cityQuery,unitsQuery]
         guard let finalURL = urlComponents?.url else {return}
         print(finalURL)
         
@@ -33,6 +33,7 @@ class NetworkController {
             guard let data = dayData else {print("There was an error receiving the data!"); completion(nil); return}
             do {
                 let topLevelDictionary = try JSONDecoder().decode(TopLevelDictionary.self, from: data)
+                completion(topLevelDictionary)
             } catch {
                 print("Error in DO/TRY/CATCH: \(error.localizedDescription)")
                 completion(nil)
