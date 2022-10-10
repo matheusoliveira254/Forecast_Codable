@@ -14,6 +14,7 @@
 		413CA71327B0DA1F00461FE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 413CA71127B0DA1F00461FE3 /* LaunchScreen.storyboard */; };
 		413CA72327B0DC4300461FE3 /* DayDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413CA72227B0DC4300461FE3 /* DayDetailsViewController.swift */; };
 		413CA72527B0DC7E00461FE3 /* DayForcastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413CA72427B0DC7E00461FE3 /* DayForcastTableViewCell.swift */; };
+		A1A5410D28F4A19300369AFD /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A5410C28F4A19300369AFD /* Day.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		413CA71427B0DA1F00461FE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		413CA72227B0DC4300461FE3 /* DayDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayDetailsViewController.swift; sourceTree = "<group>"; };
 		413CA72427B0DC7E00461FE3 /* DayForcastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayForcastTableViewCell.swift; sourceTree = "<group>"; };
+		A1A5410C28F4A19300369AFD /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				413CA71A27B0DA5600461FE3 /* Supporting Files */,
 				413CA70C27B0DA1C00461FE3 /* Main.storyboard */,
 				413CA71127B0DA1F00461FE3 /* LaunchScreen.storyboard */,
+				A1A5410C28F4A19300369AFD /* Day.swift */,
 			);
 			path = Forecast_Codable;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 				413CA70727B0DA1C00461FE3 /* AppDelegate.swift in Sources */,
 				413CA72327B0DC4300461FE3 /* DayDetailsViewController.swift in Sources */,
 				413CA70927B0DA1C00461FE3 /* SceneDelegate.swift in Sources */,
+				A1A5410D28F4A19300369AFD /* Day.swift in Sources */,
 				413CA72527B0DC7E00461FE3 /* DayForcastTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,7 +313,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4J7B9732LY;
+				DEVELOPMENT_TEAM = WHCBWLCWQ4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Forecast_Codable/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -337,7 +341,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4J7B9732LY;
+				DEVELOPMENT_TEAM = WHCBWLCWQ4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Forecast_Codable/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
